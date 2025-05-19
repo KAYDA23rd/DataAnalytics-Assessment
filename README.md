@@ -1,20 +1,16 @@
 DATA ANALYTICS ASSESSMENT
 OLUFOWOBI OLABODE KASHIF
 
-INTRODUCTION
-This repository is my submission for the SQL Proficiency Assessment. I approached this task not just as a test, but as if I were solving real-life business problems at a Nigerian fintech company like the one I hope to work with. Every query here is written with attention to clarity, correctness, and performance.
-I used the schema provided (and later converted from a `.mwb` to SQL dump) to answer four practical questions using SQL. The tables involved include:
-
-- `users_customuser` – user profiles and demographic data
-- `plans_plan` – customer savings and investment plans
-- `savings_savingsaccount` – deposit transactions
-- `withdrawals_withdrawal` – withdrawal records
-
 # SQL Assessment Solutions
 
 ## Overview
 
 This document explains the approach taken to solve each of the SQL questions provided, highlighting methodology, challenges encountered, and how those challenges were resolved. The focus was on accuracy, efficiency, completeness, and readability.
+
+- `users_customuser` – user profiles and demographic data
+- `plans_plan` – customer savings and investment plans
+- `savings_savingsaccount` – deposit transactions
+- `withdrawals_withdrawal` – withdrawal records
 
 ## 1. High-Value Customers with Multiple Products
 
