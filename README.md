@@ -1,8 +1,6 @@
 # Data Analytics Assessment  
 **Author:** Olufowobi Olabode Kashif
 
-# SQL Assessment Solutions
-
 ## Overview
 
 This document explains the approach taken to solve each of the SQL questions provided, highlighting methodology, challenges encountered, and how those challenges were resolved. The focus was on accuracy, efficiency, completeness, and readability.
