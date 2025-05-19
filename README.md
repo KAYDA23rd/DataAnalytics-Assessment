@@ -106,9 +106,3 @@ Estimate CLV per customer based on account tenure and transaction volume.
 - **SQL Syntax Errors:** Adjusted queries for MySQL compatibility, particularly CTE usage and date functions.
 - **Missing Schema Info:** Made logical assumptions for missing flags (e.g., transaction status), clarified and documented assumptions.
 - **Performance Considerations:** Used aggregation and joins efficiently, minimized nested subqueries.
-
-## Notes
-
-- The queries assume the availability of fields such as `confirmed_amount`, `transaction_date`, and plan flags (`is_regular_savings`, `is_a_fund`).
-- Amount fields stored in kobo must be converted for financial calculations.
-- Some assumptions (e.g., on transaction status) were made in absence of complete schema details.
