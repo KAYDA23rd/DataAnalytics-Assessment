@@ -32,7 +32,7 @@ Identify customers who have at least one funded savings plan **and** one funded 
 **Challenges & Solutions:**
 
 - Avoided ambiguous column names by explicitly aliasing all columns.
-- Converted all amount values from kobo to base units (dividing by 100).
+- Converted all amount values from kobo to naira (dividing by 100).
 - Ensured filtering on funded accounts (`confirmed_amount > 0`).
 - Ensured logical join conditions to avoid losing customers.
 
@@ -71,7 +71,6 @@ Identify active accounts (savings or investment) with no transactions in the pas
 
 **Challenges & Solutions:**
 
-- Removed assumption of `is_active` column (which did not exist).
 - Used `DATEDIFF` and `DATE_SUB` for accurate date comparisons.
 - Ensured to only consider confirmed transactions for activity status.
 - Handled missing or null values carefully.
