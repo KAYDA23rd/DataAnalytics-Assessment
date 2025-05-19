@@ -1,5 +1,5 @@
-DATA ANALYTICS ASSESSMENT
-OLUFOWOBI OLABODE KASHIF
+# Data Analytics Assessment  
+**Author:** Olufowobi Olabode Kashif
 
 # SQL Assessment Solutions
 
@@ -7,10 +7,14 @@ OLUFOWOBI OLABODE KASHIF
 
 This document explains the approach taken to solve each of the SQL questions provided, highlighting methodology, challenges encountered, and how those challenges were resolved. The focus was on accuracy, efficiency, completeness, and readability.
 
-- `users_customuser` – user profiles and demographic data
-- `plans_plan` – customer savings and investment plans
-- `savings_savingsaccount` – deposit transactions
-- `withdrawals_withdrawal` – withdrawal records
+## Dataset Overview
+
+The solution uses the following key tables:
+
+- `users_customuser`: Stores user profile and demographic data.
+- `plans_plan`: Contains customer savings and investment plans, with flags like `is_regular_savings` and `is_a_fund`.
+- `savings_savingsaccount`: Records deposit transactions along with transaction date, status, and amounts.
+- `withdrawals_withdrawal`: Logs withdrawal activities (used in Question 4).
 
 ## 1. High-Value Customers with Multiple Products
 
